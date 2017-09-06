@@ -1,0 +1,19 @@
+Essentially, to get it to work, just follow the instruction to create your Azure server at 
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-python
+
+Alternatively, just use my server. I've set up a disposable account for your convenience:
+server = 'vainos-iot.database.windows.net'
+database = 'VainOS_IoT'
+username = 'vainos'
+password = 'Asdf1234'
+
+To use it, you will need to give me your Raspberry pi's public IP address 
+(Just go to "find my IP" or something on RPi browser, if you are on SSH, then use ifconfig **IMPORTANT** Dont give me 192.168.x.x addresses, we both know that address is useless.)
+
+Also, when running the Python Script, if it says pyodbc not found, just use "sudo pip install pyodbc". If you are testing it from a Windows PC, open Windows PowerShell and run "pip install pyodbc"
+
+Anything just let me know.
+
+Cheers!
+Ivan
+http://ivanling.xyz
